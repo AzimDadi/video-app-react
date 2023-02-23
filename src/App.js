@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path={"/"} element={<Home />} />
+        <Route path={"/video-app-react"} element={<Home />} />
         <Route path={"/videos"} element={<Videos />} />
         <Route path={"/upload"} element={<Upload />} />
         <Route path={"/login"} element={<Login />} />
